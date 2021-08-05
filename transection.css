@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@500&display=swap');
+html{
+    width: 100%;
+}
+
+body {
+   height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Baloo 2', cursive;
+    background: linear-gradient(45deg, rgb(233,232,228),rgb(244,243,236));
+}
+
+
+
+
+.content{
+    position: relative;
+}
+
+
+.no-padding{
+    margin:0!important;
+    padding:0!important;
+}
+
+.container {
+    width: 350px;
+    height: 100%;
+    border-radius: 20px;
+    margin-top: 50px;
+    background-color: #212932;
+    overflow: hidden;
+    box-shadow: 0px 20px 50px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    position: relative;
+}
+
+.success-text{
+    color: #FEFF00;
+}
+
+.image{
+   width: 70px;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+}
+.icon-bar{
+    background-color: #19202C;
+        padding: 8px 10px;
+}
+.team{
+     background-color: #FEFF00;
+    color: black;
+    padding: 10px 30px;
+    font-weight: 500;
+    text-align: center;
+}
+.name-head{
+    margin-top: 20px;
+}
+.name-sub-head{
+    margin-bottom: 5px;
+}
+
+.bottom{
+    position: relative;
+    background-color: black;
+    z-index: 5;
+    padding: 2px 10px;
+    margin-top: 27vh;
+}
+.icon-image{
+   border: 1px solid #FEFF00;
+    border-radius: 50%;
+    padding: 5px;
+    width: 65px;
+    box-shadow: 0px 0px 8px #d2d3d7;
+}
+.images{
+    text-align: center;
+    padding-top: 12px;
+    margin-bottom: -18px;
+}
+.image-text{
+    color: #FFFF00;
+    text-align: center;
+    font-size: 13px;
+}
